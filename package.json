@@ -1,0 +1,37 @@
+{
+  "name": "gopwar-server",
+  "version": "1.0.0",
+  "description": "A GopWar SeRvEr",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "npx nodemon ./bin/gopwar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackwork-tymm0/gopwar-server.git"
+  },
+  "keywords": [
+    "gopwar",
+    "server"
+  ],
+  "author": "tymm0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackwork-tymm0/gopwar-server/issues"
+  },
+  "homepage": "https://github.com/hackwork-tymm0/gopwar-server#readme",
+  "bin": {
+    "gopwar-server": "./bin/gopwar.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "random-number": "0.0.9",
+    "redux": "^4.0.4",
+    "socket.io": "^2.2.0",
+    "tymlogger": "^1.0.0"
+  }
+}
